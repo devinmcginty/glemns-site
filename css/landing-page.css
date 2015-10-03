@@ -22,7 +22,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -167,4 +167,20 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.carousel,
+.item,
+.active{
+    height:100%;
+}
+.carousel-inner {
+    height:100%;
+}
+
+.carousel-img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
