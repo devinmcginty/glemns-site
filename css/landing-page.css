@@ -173,6 +173,7 @@ p.copyright {
 .item,
 .active{
     height:100%;
+    width: 100%:
 }
 .carousel-inner {
     height:100%;
@@ -180,10 +181,7 @@ p.copyright {
 
 .carousel-img {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     background-position: center;
-    background-size: cover;
-}
-.invisible {
-    display: none;
+    background-size: cover; 
 }
